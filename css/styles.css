@@ -1,0 +1,147 @@
+/**Font Family:
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Satisfy', cursive;
+
+Font sizing:
+16px = 100% = 1em
+% and em are dynamic, but it inherits/adds the font size of its parent.
+rem - Root em, it ignores its parents sizing settings.
+**/
+
+a{
+  color: #11999E;
+}
+
+p{
+  color: #40514E;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-color: #325288;
+  border-width: 10px;
+  width: 5%;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Satisfy', cursive;
+}
+
+h2{
+  color: #66BFBF;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Playfair Display', serif;
+}
+
+.hr-dimension{
+  margin: 100px;
+}
+
+.skill-row{
+  display: inline-block;
+  width: 50%;
+  margin: 60px auto 60px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-icon{
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.gaming-icon{
+  margin-left: 30px;
+  float: right;
+  width: 25%;
+
+}
+
+.subtitle{
+  color: #28527a;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.top-container{
+  background-color: #e4fbff;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mid-container{
+  text-align: center;
+}
+
+.btm-container{
+  padding: 50px;
+  text-align: center;
+  background-color: #66BFBF;
+}
+
+.top-cloud{
+  position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.btm-cloud{
+  position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.freepik{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  display: inline-block;
+  color: #325288;
+  padding-bottom: 20px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #325288;
+  margin: 30px 30px 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.submit{
+  border-radius: 20px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 20px;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.submit:hover{
+  background-color: #66BFBF;
+}
